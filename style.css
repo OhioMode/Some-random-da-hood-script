@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    color:whitesmoke;
+}
+#headerDiv{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color: rgba(15,15,15,0.8);
+    font-size: 25px;
+    border-bottom: 1.5px solid rgba(100,100,100,0.3);
+}
+#sectionDiv{
+    background-color: rgb(10,10,10);
+    padding-bottom: 20px;
+    padding-top: 100px;
+    border-bottom: 1.5px solid rgba(100,100,100,0.3);
+    padding-left: 40px;
+}
+footer {
+    padding-bottom: 7.5px;
+    padding-top: 7.5px;
+    background-color: black;
+    text-align: center;
+}
+#photo {
+    height: 500px;
+}
+a{
+    text-decoration: none;
+}
+.fw-bold{
+    color: white;
+}
+#script{
+    color: white;
+    border: 2px solid rgba(100,100,100,0.6);
+    border-radius: 4px;
+}
+#scriptText{
+    color:white;
+    font-weight: bold;
+}
+#scriptTextBorder{
+    border-bottom: 1px solid white;
+}
+#scriptDiv{
+    padding-top: 60px;
+}
+#scriptDiv2{
+    padding-top: 10px;
+}
+#info{
+    font-size: 30px;
+    padding-left: 5px;
+    text-align: left;
+    color: white;
+}
+#linkvertise{
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: orange;
+    font-weight: bold;
+}
+#discord{
+    margin-top: 20px;
+    background-color: rgb(114,137,218);
+    font-weight: bold;
+    margin-right: 10px;
+}
+#buildABoat{
+    font-weight: bold;
+    margin-top: 20px;
+    color: black;
+}
+#buildABoatImg{
+    width: 60px;
+}
+#discordIframe{
+    margin-left: 100px;
+}
+#discordText{
+    color: white;
+    font-weight: bold;
+}
+#discordTextBorder{
+    border-bottom: 1px solid white;
+}
+.mainOnes{
+    border-bottom: 1px solid white;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.secondaryOnes{
+    font-size: x-large;
+    font-weight: bold;
+}
+.thirdOnes{
+    font-size: larger;
+}
+.logos{
+    width: 35px;
+}
+#robuxLogo{
+    width: 25px;
+}
+#bitcoinLogo{
+    width: 25px;
+}

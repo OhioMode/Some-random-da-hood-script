@@ -1,1 +1,73 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boat Blitz</title>
+    <link rel="icon" type="image/x-icon" href="buildaboatimg.png">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container-fluid" id="headerDiv">
+            <div class="row align-items-center">
+                <div class="col-md-auto"></div>
+                <div class="col-md-auto"><a href="index.html"><div class="fw-bold">Home</div></a></div>
+                <div class="col-md-auto"><a href="features.html"><div class="fw-bold">Features</div></a></div>
+                <div class="col-md-auto"><a href="updatelogs.html"><div class="fw-bold">Update Logs</div></a></div>
+                <div class="col-md-auto"><a href="premium.html"><div class="fw-bold">Premium</div></a></div>
+                <div class="col-md-auto"><a href="#infoButtonGo"><div class="fw-bold">Info</div></a></div>
+                <div class="col-md-auto"><a href="#scriptText"><div class="fw-bold">Script</div></a></div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container-fluid"  id="sectionDiv">
+            <div class="row align-items-center" id="infoButtonGo">
+                <div class="col-md-auto"></div>
+                <div class="col-md-auto"><img src="boatblitzimg.png" alt="boat blitz" id="photo"></div>
+                <div class="col-md-auto" id="info">
+                    Total Executions: 15.000<br>
+                    Discord Members: 800<br>
+                    Script Version: 1.4.5<br>
+                    Script Status: <img src="green circle.png" alt="" class="logos"><br>
+                    Script Release Date: 2023.04.09<br>
+                    <a href="https://link-target.net/883945/fpkodshjgljkasdfh-gljkas" target="_blank"><button type="button" class="btn btn-warning" id="linkvertise" style="height: 50px; width: 160px;"><img src="linkvertiseicon.png" alt="linkvertise icon" class="logos">     Linkvertise</button></a>
+                    <a href="https://discord.gg/gfrXhTwY59" target="_blank"><button type="button" class="btn btn-info" id="discord" style="height: 50px; width: 160px;"><img src="discordicon.png" alt="discord icon" class="logo">  Discord</button></a>
+                    <a href="https://www.roblox.com/games/537413528"><button type="button" class="btn btn-secondary" id="buildABoat"  style="height: 50px; width: 160px;"><img src="buildaboatimg.png" alt="build a boat" id="buildABoatImg">  BABFT</button></a>
+                </div>
+            </div>
+            <div class="row align-items-center" id="scriptDiv">
+                <div class="col-md-auto"></div>
+                <div class="col-md-auto" id="scriptTextBorder"><h1 id="scriptText">Script:</h1></div>
+                <div class="col-md-3" style="margin-right: 150px;"></div>
+                <div class="col-md-auto" id="discordTextBorder"><h1  id="discordText">Discord:</h1></div>
+            </div>
+            <div class="row align-items-center" id="scriptDiv2">
+                <div class="col-md-auto"></div>
+                <div class="col-md-auto" id="script">
+                    --------------------------------------------------------------------------------- <br>
+                    --[[Key (You Can Leave It Empty)]]-- <br>
+                    getgenv().keysys = "Key here" <br>
+                    --[[Custom Theme]]-- <br>
+                    getgenv().Themes_Enabled = false <br>
+                    --[[Custom Theme Settings]]-- <br>
+                    getgenv().Buttons_Color = Color3.fromRGB(32, 32, 32) <br>
+                    getgenv().Misc_Color = Color3.fromRGB(25, 25, 25) <br>
+                    getgenv().Highlighting_Color = Color3.fromRGB(60, 60, 60) <br>
+                    getgenv().Text_Color = Color3.fromRGB(240, 240, 240) <br>
+                    getgenv().Sections_Color = Color3.fromRGB(150, 150, 150) <br>
+                    getgenv().Divider_Color = Color3.fromRGB(60, 60, 60) <br>
+                    --[[Loadstring]]-- <br>
+                    loadstring(game:HttpGet("https://gamingresources.github.io/BoatBlitz.lua"))() <br>
+                    ---------------------------------------------------------------------------------</div>
+                <div class="col-md-auto" id="discordIframe"><iframe src="https://discord.com/widget?id=1115670765027721260&theme=dark" width="700" height="370" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe></div>
+            </div>  
+        </div>
+    </section>
+    <footer>
+        <small>&copy; Copyright 2023,Boat Blitz</small>
+    </footer>
+</body>
+</html>
